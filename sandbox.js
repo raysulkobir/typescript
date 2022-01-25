@@ -63,21 +63,27 @@
 //
 // console.log(cal(10, 4, "add"))
 // part-9
-class Player {
-    constructor(n, a, c) {
-        this.name = n;
-        this.age = a;
-        this.country = c;
-    }
-    play() {
-        return (`${this.name} age: ${this.age} country ${this.country}`);
-    }
-}
-let sajid = new Player("Md.Raysul kobir", 20, "bangllades");
-let sanit = new Player("Md.Sanid", 15, "bangllades");
-let data = [];
-data.push(sajid);
-data.push(sanit);
-// data.push("name")
-console.log(data);
+// class Player {
+//     name: string;
+//     age: number;
+//     country: string;
+//
+//     constructor(n: string, a: number, c: string){
+//         this.name = n;
+//         this.age = a;
+//         this.country = c;
+//     }
+//     play(){
+//        return(`${this.name} age: ${this.age} country ${this.country}`)
+//     }
+// }
+// let sajid = new Player("Md.Raysul kobir", 20, "bangllades");
+// let sanit = new Player("Md.Sanid", 15, "bangllades");
+//
+// let data:Player[] = [];
+// data.push(sajid);
+// data.push(sanit);
+// // data.push("name")
+// console.log(data);
 // console.log("play", sanit.play())
+// part-13

@@ -81,9 +81,15 @@
 // part-9
 
 // class Player {
+<<<<<<< HEAD
 //     public name: string;
 //     public age: number;
 //     public country: string;
+=======
+//     name: string;
+//     age: number;
+//     country: string;
+>>>>>>> c62b25df0053a986955111cc9b143b638257866e
 //
 //     constructor(n: string, a: number, c: string){
 //         this.name = n;
@@ -100,6 +106,7 @@
 // let data:Player[] = [];
 // data.push(sajid);
 // data.push(sanit);
+<<<<<<< HEAD
 // data.push("name")
 // console.log(data);
 // console.log("play", sanit.play())
@@ -122,4 +129,12 @@
 
 
 // console.log(data);
+=======
+// // data.push("name")
+// console.log(data);
+// console.log("play", sanit.play())
+
+
+// part-13
+>>>>>>> c62b25df0053a986955111cc9b143b638257866e
 

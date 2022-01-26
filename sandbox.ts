@@ -62,7 +62,7 @@
 //     age: 10,
 //     name: "Md.Raysul"
 // }
-//
+
 // type userType = {age: number, name: string}
 // const sayHello = (user:userType) => {
 //     console.log(`Hello ${user.age} Name: ${user.name}`)
@@ -80,27 +80,46 @@
 
 // part-9
 
-class Player {
-    name: string;
-    age: number;
-    country: string;
-
-    constructor(n: string, a: number, c: string){
-        this.name = n;
-        this.age = a;
-        this.country = c;
-    }
-    play(){
-       return(`${this.name} age: ${this.age} country ${this.country}`)
-    }
-}
-let sajid = new Player("Md.Raysul kobir", 20, "bangllades");
-let sanit = new Player("Md.Sanid", 15, "bangllades");
-
-let data:Player[] = [];
-data.push(sajid);
-data.push(sanit);
+// class Player {
+//     public name: string;
+//     public age: number;
+//     public country: string;
+//
+//     constructor(n: string, a: number, c: string){
+//         this.name = n;
+//         this.age = a;
+//         this.country = c;
+//     }
+//     play(){
+//        return(`${this.name} age: ${this.age} country ${this.country}`)
+//     }
+// }
+// let sajid = new Player("Md.Raysul kobir", 20, "bangllades");
+// let sanit = new Player("Md.Sanid", 15, "bangllades");
+//
+// let data:Player[] = [];
+// data.push(sajid);
+// data.push(sanit);
 // data.push("name")
-console.log(data);
+// console.log(data);
 // console.log("play", sanit.play())
+
+// let a:any = "hell";
+//     a = "te";
+// a = "hello";
+
+// let c: object | string
+    // let c: object | string;
+// c = {
+//     name: "kamal",
+//     age: 10
+// }
+// console.log('data', c)
+
+// let a:string | number;
+// a = "sjkjt";
+// a = 123
+
+
+// console.log(data);
 
